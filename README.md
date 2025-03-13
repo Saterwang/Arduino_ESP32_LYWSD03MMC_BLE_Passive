@@ -1,0 +1,2 @@
+# Arduino_ESP32_LYWSD03MMC_BLE_Passive
+使用Arduino环境的ESP32开发板，被动扫描读取并解密米家蓝牙温度计2的温湿度数据

@@ -30,16 +30,16 @@ Default output format with decryption diagnostics:
 ```
 Note: Diagnostic lines can be commented out for cleaner output.
 
-###Important Notes
-##Device Behavior
+## Important Notes
+### Device Behavior
 Firmware Impact:
 Legacy firmware: Broadcasts every ~30 mins (1 temp + 1 humidity packet)
 New firmware: Reduced broadcast interval (recommended for responsiveness)
-##Technical Limitations
+### Technical Limitations
 ESP32 BLE Library Issue:
 ServiceData handling via String type truncates at 0x00 bytes
 Workaround: Raw payload parsing implemented for data integrity
-#Requirements
+## Requirements
 Arduino Environment:
 Requires ESP32 board package v3.1.1+
 Tested with ESP32-DevKitC and similar boards
